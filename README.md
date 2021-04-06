@@ -11,7 +11,7 @@
 
 # Important
 
-Take a look https://beauty-salon-website.vercel.app/
+Take a look https://oticario.vercel.app/
 
 ## About
 I've created this website in order to pratice CSS flex box and HTML semantic elements, in this project I've learned how to make a **3D slider** using just  CSS. I've learned how to make a **menu mobile** using javascript and I used the **Google maps API** on this website
