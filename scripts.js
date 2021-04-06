@@ -1,5 +1,8 @@
 //start
 let navegation =  document.querySelector('.nav-list');
+let slides = document.querySelectorAll('.slide');
+let btns = document.querySelectorAll('.btn');
+let currentSlide = 1;
 
 document.querySelector('.ion-md-menu').addEventListener('click', function () {
     navegation.classList.add('display');
@@ -8,10 +11,6 @@ document.querySelector('.ion-md-menu').addEventListener('click', function () {
 document.querySelector('.nav-list').addEventListener('click', function () {
     navegation.classList.remove('display');
 })
-
-let slides = document.querySelectorAll('.slide');
-  let btns = document.querySelectorAll('.btn');
-    let currentSlide = 1;
 
     // Javascript for image slider manual navigation
     let manualNav = function(manual){
