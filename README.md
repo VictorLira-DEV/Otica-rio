@@ -4,8 +4,8 @@
     <img src="https://ik.imagekit.io/Victorliradev/Animated_GIF-downsized_Yv4C59rvl.gif">
 </h1>
 
-# Sections
-- [about](#-About)
+# Seções
+- [sobre](#Sobre)
 - [technologies](#-technologies)
 - [Contributing](#-Contributing)
 
@@ -13,17 +13,11 @@
 
 Take a look https://oticario.vercel.app/
 
-## About
-I've created this website in order to pratice CSS flex box and HTML semantic elements, in this project I've learned how to make a **3D slider** using just  CSS. I've learned how to make a **menu mobile** using javascript and I used the **Google maps API** on this website
-
+## Sobre
+Esse é o primeiro projeto profissional como freelancer que eu tive contato direto com o cliente, o mesmo está ciente e permitiu inserir o código do projeto no meu portifófio,
+essa landing page está totalmente resposival, eu utilizei API do goole maps, técnicas de SEO para melhor rankear o site nos mecanismos de busca, alterei e coloquei funcionaliades que foi solicitado.
 ---
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-All the services were TDD planed, so please make sure to update tests as appropriate.
-
----
  
  ## technologies
 the project was developed using the following technologies
