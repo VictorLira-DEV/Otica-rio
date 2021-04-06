@@ -1,10 +1,12 @@
 //start
+let navegation =  document.querySelector('.nav-list');
+
 document.querySelector('.ion-md-menu').addEventListener('click', function () {
-    document.querySelector('.nav-list').classList.add('display');
+    navegation.classList.add('display');
 })
 
 document.querySelector('.nav-list').addEventListener('click', function () {
-    document.querySelector('.nav-list').classList.remove('display');
+    navegation.classList.remove('display');
 })
 
 let slides = document.querySelectorAll('.slide');
