@@ -26,11 +26,7 @@ main section.slider-show h1{
     width: 800px;
     height: 500px;
     margin: 10px;
-    background: #1D212B;
     margin: 0 auto;
-box-shadow: 2px 2px 15px rgb(0 0 0 / 60%);
-    /* -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
   }
   
   .img-slider .slide{
