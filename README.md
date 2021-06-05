@@ -1,7 +1,7 @@
 # ótica-rio
 
 <h1 align="center" >
-    <img src="https://ik.imagekit.io/Victorliradev/Animated_GIF-downsized_Yv4C59rvl.gif">
+    <img src="https://ik.imagekit.io/mcvhbcq4zu/oticario_pdte_a9ek.gif">
 </h1>
 
 # Seções
