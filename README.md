@@ -29,7 +29,7 @@ esse projeto foi desenvolvido usando as seguintes tecnologias
 ## Mobile Version
 
 <h1 align="center" >
-    <img src="https://ik.imagekit.io/Victorliradev/Animated_GIF-downsized__1__p9hVnVB59.gif">
+    <img src="https://ik.imagekit.io/mcvhbcq4zu/oticario-mobile_U5yOaxh3b.gif">
 </h1>
 
 Criado por **Victor lira dev**
