@@ -60,12 +60,3 @@ let repeat = function (activeClass) {
   repeater();
 };
 repeat();
-
-//smooth scroll
-const menuWrapper = document.querySelector('.desktop-menu');
-menuWrapper.addEventListener('click', function (e) {
-  if (e.target.classList.contains('nav-link')) {
-    const id = e.target.getAttribute('href');
-    document.querySelector(id).scrollIntoView({behavior: 'smooth'})
-  }
-})

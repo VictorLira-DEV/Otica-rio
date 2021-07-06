@@ -11,6 +11,7 @@ html {
   font-family: "Nurito", sans-serif;
   font-size: 10px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 ul {
