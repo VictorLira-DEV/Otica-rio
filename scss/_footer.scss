@@ -1,0 +1,102 @@
+/*footer */
+footer {
+    padding: 2.5rem 0;
+    background: url(../assets/bg-background.jpg) #111111 top no-repeat;
+    font-size: 1.4rem;
+    text-align: center;
+    color: whitesmoke;
+
+    .icone {
+        display: flex;
+        i {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+    }
+
+    .menu-row,
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menus {
+        display: flex;
+        justify-content: space-between;
+        text-align: start;
+
+        li {
+            &:not(:last-child) {
+                margin-bottom: 10px;
+            }
+
+            a {
+                font-size: 1.7rem;
+                color: #666;
+                transition: 0.4s;
+                &:hover {
+                    color: whitesmoke;
+                }
+            }
+        }
+
+        .row {
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            text-align: start;
+        }
+
+        span {
+            text-transform: uppercase;
+            margin: 10px 0;
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: #eb648c;
+        }
+    }
+
+    .redes-sociais {
+        display: flex;
+        flex-direction: column;
+        i.fab {
+            color: whitesmoke;
+        }
+    }
+
+    .telefone,
+    .email {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        text-transform: uppercase;
+        margin: 10px;
+        p {
+            font-size: 1.1rem;
+        }
+
+        h1 {
+            padding-top: -10px;
+        }
+    }
+}
+
+//copy
+.copy {
+    font-size: 1.7rem;
+    color: #666;
+    background: url(../assets/bg-background.jpg) #111111 top no-repeat;
+
+    a {
+        color: #666;
+        &:hover {
+            color: white;
+        }
+    }
+}

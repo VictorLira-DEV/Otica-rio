@@ -1,0 +1,58 @@
+/* testemonials */
+.testimonials {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(
+            135deg,
+            rgba(49, 24, 131, 0.9) 0%,
+            rgba(72, 56, 149, 0.8) 100%
+        ),
+        url("../images/testimonials-bg.jpg") center no-repeat fixed;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: -3px;
+        left: 0;
+        width: 100%;
+        height: 4.7rem;
+        background: url("../images/wave-small-reversed.png") center no-repeat;
+        background-size: cover;
+    }
+
+    .testimonial {
+        width: 100%;
+        color: #fafafa;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        margin-top: 5%;
+        .testimonial-text-box {
+            padding: 0 1.5rem;
+            margin-bottom: 2rem;
+            position: relative;
+            i {
+                position: absolute;
+                top: -8rem;
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: 8rem;
+                color: #eb648c;
+                opacity: 0.5;
+                z-index: -1;
+            }
+        }
+
+        .testimonial-customer {
+            img {
+                width: 14rem;
+                border-radius: 100%;
+                border: 3px solid #eb648c;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

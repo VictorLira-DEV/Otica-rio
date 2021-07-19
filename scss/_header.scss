@@ -1,0 +1,73 @@
+.header {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(
+            135deg,
+            rgba(49, 24, 131, 0.9) 0%,
+            rgba(72, 56, 149, 0.8) 100%
+        ),
+        url("../images/p2.png") center no-repeat;
+    background-size: cover;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        width: 100%;
+        z-index: 1;
+        height: 4.7rem;
+        background: url("../images/wave-small.png") center;
+        background-size: cover;
+    }
+
+    .main-message {
+        width: 100%;
+        height: auto;
+        color: #fafafa;
+        text-transform: uppercase;
+        transform: translateY(20%);
+
+        h3 {
+            font-size: 1.6rem;
+        }
+
+        h1 {
+            font-family: "Aldrich", sans-serif;
+            font-size: 4rem;
+            margin: 1rem 0;
+        }
+
+        p {
+            text-transform: lowercase;
+            line-height: 1.4;
+            text-align: justify;
+            span {
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .cta {
+        a {
+            cursor: pointer;
+        }
+
+        .btn-pink {
+            background-color: #eb648c;
+            font-size: 1.2rem;
+            border-radius: 2rem;
+            color: #fafafa;
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 1rem 2.5rem;
+            text-transform: uppercase;
+            transition: background-color 650ms;
+
+            &.btn-pink:hover {
+                background-color: #ce587b;
+            }
+        }
+    }
+}
