@@ -10,7 +10,7 @@
 
 # Importante
 
-:key: Confira o site --> https://oticario.vercel.app/
+:key: Confira o site --> https://otica-rio.vercel.app/
 
 ## :mag: Sobre
 
