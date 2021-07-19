@@ -1,18 +1,9 @@
-//start
-let navegation = document.querySelector(".nav-list");
-let slides = document.querySelectorAll(".slide");
+
+// Javascript for image slider manual 
+
 let btns = document.querySelectorAll(".btn");
-let currentSlide = 1;
+let slides = document.querySelectorAll(".slide");
 
-document.querySelector(".ion-md-menu").addEventListener("click", function () {
-  navegation.classList.add("display");
-});
-
-document.querySelector(".nav-list").addEventListener("click", function () {
-  navegation.classList.remove("display");
-});
-
-// Javascript for image slider manual navigation
 let manualNav = function (manual) {
   slides.forEach((slide) => {
     slide.classList.remove("active");

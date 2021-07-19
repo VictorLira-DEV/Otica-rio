@@ -1,0 +1,39 @@
+//menu
+header {
+    width: 100%;
+    max-width: 98rem;
+    position: relative;
+    margin: 0 auto;
+}
+.navigation {
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    padding: 30px;
+
+    .checkbtn {
+        font-size: 30px;
+        color: whitesmoke;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        li {
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: white;
+                padding: 7px 15px;
+                border-radius: 2px;
+                transition: 0.3s;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
