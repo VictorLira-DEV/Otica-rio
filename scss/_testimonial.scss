@@ -56,3 +56,29 @@
         }
     }
 }
+
+@media screen and (max-width: 950px) {
+    .testimonial {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 470px) {
+    .testimonials {
+        &::before {
+            height: 9.4rem;
+            background: url("../images/wave-medium-reversed.png");
+            background-size: cover;
+        }
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .testimonials {
+        &::before {
+            height: 22.7rem;
+            background: url("../images/wave-large-reversed.png");
+            background-size: cover;
+        }
+    }
+}

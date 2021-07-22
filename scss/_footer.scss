@@ -100,3 +100,35 @@ footer {
         }
     }
 }
+
+@media screen and (max-width: 660px) {
+    footer .menus {
+        flex-direction: column;
+        .row {
+            width: 100%;
+            justify-content: space-around;
+        }
+        .contato {
+            margin-top: 20px;
+            width: 100%;
+            justify-content: space-around;
+            .telefone {
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 412px) {
+    footer {
+        .menus {
+            .row {
+                justify-content: space-between;
+            }
+            .contato {
+                margin-top: 20px;
+                justify-content: space-between;
+            }
+        }
+    }
+}

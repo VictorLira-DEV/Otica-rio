@@ -71,3 +71,55 @@
         }
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .header {
+        height: 75vh;
+    }
+
+    .main-message {
+        transform: translateY(40%);
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .main-message {
+        margin-top: -40px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .header {
+        padding-top: 80px;
+    }
+}
+
+
+@media screen and (min-width: 350px) {
+    .main-message {
+        transform: translateY(40%);
+    }
+}
+
+@media screen and (min-width: 470px) {
+    .header {
+        &::before {
+            height: 9.4rem;
+            background: url("../images/wave-medium.png");
+            background-size: cover;
+        }
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .header {
+        &::before {
+            height: 22.7rem;
+            background: url("../images/wave-large.png");
+            background-size: cover;
+        }
+    }
+    .main-message {
+        transform: translateY(20%);
+    }
+}

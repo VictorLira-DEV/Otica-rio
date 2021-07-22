@@ -1,5 +1,4 @@
 //experienceoutdoor
-
 .experience-outdoors {
     padding: 0;
 }
@@ -84,5 +83,19 @@
             text-transform: uppercase;
             margin: 2rem 0;
         }
+        p {
+            color: rgba(0, 0, 0, 0.7);
+            line-height: 1.5;
+        }
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .title-heading {
+        margin: 3rem 0 5rem 0;
+    }
+
+    .activities-grid {
+        margin-bottom: 5rem;
     }
 }
