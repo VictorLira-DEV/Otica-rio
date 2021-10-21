@@ -1,7 +1,7 @@
 # ótica-rio
 
 <h2 align="center"> 
-        My Personal Project ✔️
+        😎 Personal Project ✔️
 </h2>
 
 <h1 align="center" >
