@@ -1,5 +1,9 @@
 # ótica-rio
 
+<h2 align="center"> 
+        My Personal Project ✔️
+</h2>
+
 <h1 align="center" >
     <img src="https://ik.imagekit.io/mcvhbcq4zu/oticario_pdte_a9ek.gif">
 </h1>
