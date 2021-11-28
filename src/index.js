@@ -2,42 +2,47 @@
 import "./scss/style.scss";
 import "./menu";
 
-let btns = document.querySelectorAll(".btn");
-let slides = document.querySelectorAll(".slide");
+let btns = document.querySelectorAll(".slider__dots");
+let slides = document.querySelectorAll(".slider__img");
 
 let manualNav = function (manual) {
 	slides.forEach((slide) => {
-		slide.classList.remove("active");
+		slide.classList.remove("slider__img--active");
 
 		btns.forEach((btn) => {
-			btn.classList.remove("active");
+			btn.classList.remove("slider__dots--active");
 		});
 	});
 
-	slides[manual].classList.add("active");
-	btns[manual].classList.add("active");
+	slides[manual].classList.add("slider__img--active");
+	btns[manual].classList.add("slider__dots--active");
 };
 
 btns.forEach((btn, i) => {
 	btn.addEventListener("click", () => {
 		manualNav(i);
-		currentSlide = i;
+		// currentSlide = i;
 	});
 });
 
 // Javascript for image slider autoplay navigation
 let repeat = function (activeClass) {
-	let active = document.getElementsByClassName("active");
+	let activeSlider = document.getElementsByClassName("slider__img--active");
+	let activeDot = document.getElementsByClassName("slider__dots--active");
 	let i = 1;
 
 	let repeater = () => {
 		setTimeout(function () {
-			[...active].forEach((activeSlide) => {
-				activeSlide.classList.remove("active");
+			[...activeSlider].forEach((activeSlideImg) => {
+				activeSlideImg.classList.remove("slider__img--active");
 			});
 
-			slides[i].classList.add("active");
-			btns[i].classList.add("active");
+			[...activeDot].forEach((activeSlideBtn) => {
+				activeSlideBtn.classList.remove("slider__dots--active");
+			});
+
+			slides[i].classList.add("slider__img--active");
+			btns[i].classList.add("slider__dots--active");
 			i++;
 
 			if (slides.length == i) {

@@ -1,6 +1,6 @@
 @import "./footer";
 @import "./slider";
-@import "./models";
+@import "./about";
 @import "./header";
 @import "./testimonial";
 @import "./menu";
@@ -10,60 +10,65 @@
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
 }
 
 html {
-    font-family: "Nurito", sans-serif;
-    font-size: 10px;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+	font-family: "Nurito", sans-serif;
+	font-size: 10px;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
-body#display-content{
-    display: block !important
+body#display-content {
+	display: block !important;
+}
+
+.wrapper {
+	max-width: 1440px;
+	margin: 0 auto;
 }
 
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 p {
-    font-size: 1.6rem;
+	font-size: 1.6rem;
 }
 
 img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
 }
 
 section {
-    padding: 5rem 0;
+	padding: 5rem 0;
 }
 
 .container {
-    width: 100%;
-    max-width: 98rem;
-    margin: 0 auto;
-    padding: 0 1.5rem;
+	width: 100%;
+	max-width: 98rem;
+	margin: 0 auto;
+	padding: 0 1.5rem;
 }
 
 .btn-pink {
-    background-color: #eb648c;
-    font-size: 1.2rem;
-    border-radius: 2rem;
-    color: #fafafa;
-    display: inline-block;
-    margin-top: 2rem;
-    padding: 1rem 2.5rem;
-    text-transform: uppercase;
-    transition: background-color 650ms;
+	background-color: #eb648c;
+	font-size: 1.2rem;
+	border-radius: 2rem;
+	color: #fafafa;
+	display: inline-block;
+	margin-top: 2rem;
+	padding: 1rem 2.5rem;
+	text-transform: uppercase;
+	transition: background-color 650ms;
 
-    &.btn-pink:hover {
-        background-color: #ce587b;
-    }
+	&.btn-pink:hover {
+		background-color: #ce587b;
+	}
 }
