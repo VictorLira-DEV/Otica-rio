@@ -39,17 +39,17 @@
 			cursor: pointer;
 			z-index: 1;
 
-            &--star{
-                background: url("../images/masculino.jpg") center no-repeat;
+			&--star {
+				background: url("../images/masculino.jpg") center no-repeat;
 				background-size: cover;
-            }
+			}
 
-            &--hiking{
-                background: url("../images/feminino.jpg") center no-repeat;
+			&--hiking {
+				background: url("../images/feminino.jpg") center no-repeat;
 				background-size: cover;
-            }
+			}
 
-            &--camping {
+			&--camping {
 				background: url("../images//kid.jpg") center no-repeat;
 				background-size: cover;
 			}
@@ -92,8 +92,8 @@
 @media screen and (max-width: 660px) {
 	.about {
 		margin-bottom: 5rem;
-        &__title{
-            margin: 3rem 0 5rem 0;
-        }
+		&__title {
+			margin: 3rem 0 5rem 0;
+		}
 	}
 }

@@ -4,7 +4,7 @@
 	background: #111111 top no-repeat;
 	font-size: 1.4rem;
 	text-align: center;
-	color: whitesmoke;
+	color: rgb(168, 164, 164);
 
 	&__content {
 		display: flex;
@@ -20,10 +20,12 @@
 	}
 
 	&__menu-wrapper {
-		width: 50%;
 		display: flex;
 		justify-content: space-around;
 		text-align: start;
+		& >:first-child{
+			margin-right: 100px;
+		}
 	}
 
 	&__menu {
@@ -45,22 +47,13 @@
 
 		a {
 			font-size: 1.7rem;
-			color: #666;
+			color: inherit;
 			transition: 0.4s;
 			&:hover {
 				color: whitesmoke;
 			}
 		}
 	}
-
-	&__icon {
-		display: flex;
-		i {
-			margin-right: 10px;
-			font-size: 20px;
-		}
-	}
-
 	// social-media
 	&__social-media {
 		display: flex;
@@ -83,7 +76,7 @@
 
 		a {
 			font-size: 1.7rem;
-			color: #666;
+			color: inherit;
 			transition: 0.4s;
 			&:hover {
 				color: whitesmoke;
@@ -107,22 +100,16 @@
 			padding-top: -10px;
 		}
 	}
-
-	&__phone-number,
-	&__email {
-		display: flex;
-		justify-content: space-around;
-	}
 }
 
 //copy
 .copy {
 	font-size: 1.7rem;
-	color: #666;
+	color: rgb(168, 164, 164);
 	background: #111111 top no-repeat;
 
 	a {
-		color: #666;
+		color: inherit;
 		&:hover {
 			color: white;
 		}
@@ -133,15 +120,6 @@
 	.footer {
 		&__content {
 			flex-direction: column;
-
-			.contato {
-				margin-top: 20px;
-				width: 100%;
-				justify-content: space-around;
-				.telefone {
-					margin-bottom: 40px;
-				}
-			}
 		}
 
 		&__menu-wrapper {
@@ -153,15 +131,12 @@
 
 @media screen and (max-width: 412px) {
 	.footer {
-		&__content {
-			.contato {
-				margin-top: 20px;
-				justify-content: space-between;
-			}
-		}
-
 		&__menu-wrapper {
 			justify-content: space-between;
+			& >:first-child{
+				margin-right: auto;
+			}
 		}
+		
 	}
 }
