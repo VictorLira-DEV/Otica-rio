@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @import "./footer";
 @import "./slider";
 @import "./about";
@@ -13,14 +20,16 @@
 *::after {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	text-decoration: none;
 }
 
 html {
 	font-family: "Nurito", sans-serif;
 	font-size: 10px;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	scroll-behavior: smooth;
 }
 
@@ -67,6 +76,8 @@ section {
 	margin-top: 2rem;
 	padding: 1rem 2.5rem;
 	text-transform: uppercase;
+	-webkit-transition: background-color 650ms;
+	-o-transition: background-color 650ms;
 	transition: background-color 650ms;
 
 	&.btn-pink:hover {

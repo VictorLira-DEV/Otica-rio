@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 /*footer */
 .footer {
 	padding: 2.5rem 0;
@@ -7,8 +14,12 @@
 	color: rgb(168, 164, 164);
 
 	&__content {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: space-between;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
 		text-align: start;
 		span {
 			text-transform: uppercase;
@@ -20,8 +31,11 @@
 	}
 
 	&__menu-wrapper {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: space-around;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
 		text-align: start;
 		& >:first-child{
 			margin-right: 100px;
@@ -29,15 +43,29 @@
 	}
 
 	&__menu {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
 	}
 
 	&__menu-list {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
 	}
 
 	&__menu-item {
@@ -48,6 +76,8 @@
 		a {
 			font-size: 1.7rem;
 			color: inherit;
+			-webkit-transition: 0.4s;
+			-o-transition: 0.4s;
 			transition: 0.4s;
 			&:hover {
 				color: whitesmoke;
@@ -56,17 +86,29 @@
 	}
 	// social-media
 	&__social-media {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 		i.fab {
 			color: whitesmoke;
 		}
 	}
 
 	&__social-media-list {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
 	}
 
 	&__social-media-item {
@@ -77,6 +119,8 @@
 		a {
 			font-size: 1.7rem;
 			color: inherit;
+			-webkit-transition: 0.4s;
+			-o-transition: 0.4s;
 			transition: 0.4s;
 			&:hover {
 				color: whitesmoke;
@@ -87,8 +131,13 @@
 	//contact
 
 	&__contact {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 		width: 50%;
 		text-transform: uppercase;
 		margin: 10px;
@@ -119,12 +168,16 @@
 @media screen and (max-width: 660px) {
 	.footer {
 		&__content {
-			flex-direction: column;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			    -ms-flex-direction: column;
+			        flex-direction: column;
 		}
 
 		&__menu-wrapper {
 			width: 100%;
-			justify-content: space-around;
+			-ms-flex-pack: distribute;
+			    justify-content: space-around;
 		}
 	}
 }
@@ -132,7 +185,9 @@
 @media screen and (max-width: 412px) {
 	.footer {
 		&__menu-wrapper {
-			justify-content: space-between;
+			-webkit-box-pack: justify;
+			    -ms-flex-pack: justify;
+			        justify-content: space-between;
 			& >:first-child{
 				margin-right: auto;
 			}

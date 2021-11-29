@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 //google maps
 .google-maps {
 	h3 {
@@ -10,6 +17,7 @@
 	#map {
 		height: 300px;
 		width: 100%;
-		box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+		-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+		        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
 	}
 }

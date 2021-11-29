@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 //menu
 .header {
 	width: 100%;
@@ -14,7 +21,11 @@
 
 		ul {
 			list-style: none;
+			display: -webkit-box;
+			display: -ms-flexbox;
 			display: flex;
+			-webkit-box-pack: end;
+			-ms-flex-pack: end;
 			justify-content: flex-end;
 			li {
 				a {
@@ -23,6 +34,8 @@
 					color: white;
 					padding: 7px 15px;
 					border-radius: 2px;
+					-webkit-transition: 0.3s;
+					-o-transition: 0.3s;
 					transition: 0.3s;
 					font-size: 1.3rem;
 				}
@@ -51,11 +64,20 @@
 				z-index: 100;
 				width: 100%;
 				height: 100vh;
-				background:rgb(49, 24, 131);
+				background: rgb(49, 24, 131);
 				left: -100%;
+				-webkit-transition: all 0.5s;
+				-o-transition: all 0.5s;
 				transition: all 0.5s;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
 				align-items: center;
+				-webkit-box-orient: vertical;
+				-webkit-box-direction: normal;
+				-ms-flex-direction: column;
 				flex-direction: column;
+				-webkit-box-pack: start;
+				-ms-flex-pack: start;
 				justify-content: flex-start;
 				color: white;
 				top: 50px;
@@ -75,7 +97,11 @@
 		}
 
 		&__checkbtn {
+			display: -webkit-box;
+			display: -ms-flexbox;
 			display: flex;
+			-webkit-box-pack: end;
+			-ms-flex-pack: end;
 			justify-content: flex-end;
 		}
 	}

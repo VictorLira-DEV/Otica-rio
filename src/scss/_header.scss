@@ -1,6 +1,19 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 .main-header {
 	width: 100%;
 	height: 80vh;
+	background: -o-linear-gradient(
+			315deg,
+			rgba(49, 24, 131, 0.9) 0%,
+			rgba(72, 56, 149, 0.8) 100%
+		),
+		url("../images/p2.png") center no-repeat;
 	background: linear-gradient(
 			135deg,
 			rgba(49, 24, 131, 0.9) 0%,
@@ -27,7 +40,9 @@
 		height: auto;
 		color: #fafafa;
 		text-transform: uppercase;
-		transform: translateY(20%);
+		-webkit-transform: translateY(20%);
+		    -ms-transform: translateY(20%);
+		        transform: translateY(20%);
 
 		h3 {
 			font-size: 1.6rem;
@@ -63,6 +78,8 @@
 			margin-top: 2rem;
 			padding: 1rem 2.5rem;
 			text-transform: uppercase;
+			-webkit-transition: background-color 650ms;
+			-o-transition: background-color 650ms;
 			transition: background-color 650ms;
 
 			&.btn-pink:hover {
@@ -77,7 +94,9 @@
 		height: 75vh;
 
 		&__message {
-			transform: translateY(40%);
+			-webkit-transform: translateY(40%);
+			    -ms-transform: translateY(40%);
+			        transform: translateY(40%);
 		}
 	}
 }
@@ -103,7 +122,9 @@
 @media screen and (min-width: 350px) {
 	.main-header {
 		&__message {
-			transform: translateY(40%);
+			-webkit-transform: translateY(40%);
+			    -ms-transform: translateY(40%);
+			        transform: translateY(40%);
 		}
 	}
 }
@@ -127,7 +148,9 @@
 		}
 
 		&__message {
-			transform: translateY(20%);
+			-webkit-transform: translateY(20%);
+			    -ms-transform: translateY(20%);
+			        transform: translateY(20%);
 		}
 	}
 }

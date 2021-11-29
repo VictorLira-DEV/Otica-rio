@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 // gallery
 .gallery {
 	h1 {
@@ -11,6 +18,7 @@
 	&__pictures {
 		width: 100%;
 		height: auto;
+		display: -ms-grid;
 		display: grid;
 		grid-gap: 20px;
 		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -20,7 +28,8 @@
 			height: 200px;
 			border: 10px double rgba(192, 192, 192, 0.7);
 			overflow: hidden;
-			justify-self: center;
+			-ms-grid-column-align: center;
+			    justify-self: center;
 		}
 	}
 }
@@ -28,7 +37,8 @@
 @media screen and (max-width: 474px) {
 	.gallery__pictures {
 		div {
-			justify-self: center;
+			-ms-grid-column-align: center;
+			    justify-self: center;
 		}
 	}
 }
