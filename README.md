@@ -36,4 +36,5 @@ essa landing page est√° totalmente responsiva, eu utilizei API do goole maps, t√
     <img src="https://ik.imagekit.io/mcvhbcq4zu/oticario-mobile_U5yOaxh3b.gif">
 </h1>
 
+
 Criado por **Victor lira dev**
